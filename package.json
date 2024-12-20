@@ -4,8 +4,9 @@
   "description": "",
   "homepage": "https://igor-tarasenko.com",
 "scripts": {
- "start": "parcel src/index.html",
- "build": "parcel build src/*.html --public-url /advocateapp/"
+  "start": "parcel src/index.html",
+  "build": "parcel build src/*.html --public-url /advocateapp/",
+  "deploy": "npm run build && git add dist && git subtree push --prefix dist origin gh-pages"
 },
   "repository": {
     "type": "git",
