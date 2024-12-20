@@ -5,7 +5,7 @@
   "homepage": "https://igor-tarasenko.com",
 "scripts": {
  "start": "parcel src/index.html",
- "build": "parcel build src/*.html --public-url /advocatapp/"
+ "build": "parcel build src/*.html --public-url /advocateapp/"
 },
   "repository": {
     "type": "git",
